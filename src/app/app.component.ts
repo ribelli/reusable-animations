@@ -32,24 +32,24 @@ export class AppComponent {
   ];
   slides: Slide[] = [
     {
-      headline: "For Your Current Mood",
+      headline: "1",
       src:
-        "https://images.unsplash.com/photo-1567653418876-5bb0e566e1c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
+        "/images/bitter-free-number-font.png.webp"
     },
     {
-      headline: "Miouw",
+      headline: "2",
       src:
-        "https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80"
+        "/images/crimson-number-typeface.png.webp"
     },
     {
-      headline: "In The Wilderness",
+      headline: "3",
       src:
-        "https://images.unsplash.com/photo-1557800634-7bf3c7305596?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2001&q=80"
+        "/images/lato-free-number-font.png.webp"
     },
     {
-      headline: "Focus On The Writing",
+      headline: "4",
       src:
-        "https://images.unsplash.com/photo-1551410224-699683e15636?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80"
+        "/images/types-number-fonts.png.webp"
     }
   ];
 
