@@ -24,32 +24,23 @@ export class AppComponent {
     {
       name: "Flip",
       value: AnimationType.Flip
-    },
-    {
-      name: "Jack In The Box",
-      value: AnimationType.JackInTheBox
     }
   ];
   slides: Slide[] = [
     {
       headline: "1",
       src:
-        "/images/bitter-free-number-font.png.webp"
+        "./src/app/images/bitter-free-number-font.png.webp"
     },
     {
       headline: "2",
       src:
-        "/images/crimson-number-typeface.png.webp"
+        "./src/app/images/crimson-number-typeface.png.webp"
     },
     {
       headline: "3",
       src:
-        "/images/lato-free-number-font.png.webp"
-    },
-    {
-      headline: "4",
-      src:
-        "/images/types-number-fonts.png.webp"
+        "./src/app/images/lato-free-number-font.png.webp"
     }
   ];
 
