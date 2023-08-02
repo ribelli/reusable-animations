@@ -22,6 +22,10 @@ export class AppComponent {
       value: AnimationType.Fade
     },
     {
+      name: "SlideInOut",
+      value: AnimationType.SlideInOut
+    },
+        {
       name: "Flip",
       value: AnimationType.Flip
     }
