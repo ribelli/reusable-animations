@@ -7,7 +7,8 @@ export enum AnimationType {
   Scale = "scale",
   Fade = "fade",
   Flip = "flip",
-  JackInTheBox = "jackInTheBox"
+  JackInTheBox = "jackInTheBox",
+  slideInOut = "slideInOut"
 }
 
 // =========================
@@ -97,5 +98,26 @@ export const jackIn = animation([
 ]);
 
 export const jackOut = animation([
+  // just hide it
+]);
+
+// =========================
+// Flip
+// =========================
+export const slideInOut = animation([
+  animate(
+    '{{time}} ease-in-out',
+    keyframes([
+      style({
+        opacity: 1,
+        transform: "perspective(400px) rotate3d(1, 0, 0, 90deg)",
+        offset: 0
+      }), // start state
+      style({ transform: "perspective(400px)", offset: 1 })
+    ])
+  )
+]);
+
+export const slideOutIn = animation([
   // just hide it
 ]);
