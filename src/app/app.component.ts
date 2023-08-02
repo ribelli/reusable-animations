@@ -15,7 +15,7 @@ export class AppComponent {
   animationTypes = [
     {
       name: "Scale",
-      value: AnimationType.Scale
+      value: AnimationType.Scale 
     },
     {
       name: "Fade",
@@ -30,17 +30,17 @@ export class AppComponent {
     {
       headline: "1",
       src:
-        "./src/app/images/bitter-free-number-font.png.webp"
+        "https://picsum.photos/id/238/1400/1600"
     },
     {
       headline: "2",
       src:
-        "./src/app/images/crimson-number-typeface.png.webp"
+        "https://picsum.photos/id/236/1400/1600"
     },
     {
       headline: "3",
       src:
-        "./src/app/images/lato-free-number-font.png.webp"
+        "https://picsum.photos/id/231/1400/1600"
     }
   ];
 
