@@ -1,22 +1,10 @@
 # AngularCarousel
 
-<img src="docs/img/final2.gif" alt="marcdown" width="100%">
-
-### Features :sparkles:
-
-:heart: **Created in Angular**: Angular V16
-
-:zap: **Angular Animations**: Makes use of Angular animations
-
----
-
 ## Blog Post
 
 [Lets create a carousel with reusable animations](https://medium.com/showpad-engineering/angular-animations-lets-create-a-carousel-with-reusable-animations-81c0dd8847e8)
 
 ## Demo
-
-https://brampeirs.github.io/angular-carousel/
 
 ---
 
@@ -34,4 +22,3 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 - Checkout gh-pages branch
 - Pull master in it to have latest changes
 - run `npm run build-and-deploy`
-- visit https://brampeirs.github.io/angular-carousel/
