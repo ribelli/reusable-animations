@@ -1,13 +1,5 @@
 # AngularCarousel
 
-## Blog Post
-
-[Lets create a carousel with reusable animations](https://medium.com/showpad-engineering/angular-animations-lets-create-a-carousel-with-reusable-animations-81c0dd8847e8)
-
-## Demo
-
----
-
 ## node version
 
 v18 (see .nvmrc file)
